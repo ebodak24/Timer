@@ -1,0 +1,15 @@
+{
+    "name":"timer", 
+    "version":"1.0",
+    "manifest_version":3,
+    "action":{
+        "default_popup":"Index.html"
+    },
+    "background":{
+        "seervice_worker":"Background.js"
+    },
+    "permissions":[
+        "alarms",
+        "notifications"
+    ]
+}
